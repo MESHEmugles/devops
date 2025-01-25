@@ -38,8 +38,8 @@ The enhancements involved:
 ---
 
 ### Contribution 1: Adding "Book Reviews" Section
-1. Created a branch for the work named `add-book-reviews`.
-2. Switched to the `add-book-reviews` branch.
+1. Created a branch for the work named `add-book-review-morgan`.
+2. Switched to the `add-book-review-morgan` branch.
 3. Added a new file `book_reviews.html` to represent the "Book Reviews" section.
 4. Added random text content to the `book_reviews.html` file.
 5. Staged the changes:
@@ -50,42 +50,42 @@ The enhancements involved:
    ```bash
    git commit -m "Add book reviews section."
    ```
-7. Pushed the `add-book-reviews` branch to GitHub:
+7. Pushed the `add-book-review-morgan` branch to GitHub:
    ```bash
-   git push origin add-book-reviews
+   git push origin add-book-review-morgan
    ```
-8. Raised a Pull Request (PR) from `add-book-reviews` to the `main` branch.
+8. Raised a Pull Request (PR) from `add-book-review-morgan` to the `main` branch.
 9. Merged the PR to integrate the "Book Reviews" section into the `main` branch.
 
 ---
 
 ### Contribution 2: Updating the "Events" Page
-1. Created a branch for this work named `update-events`.
-2. Switched to the `update-events` branch.
+1. Created a branch for this work named `update-events-jamie`.
+2. Switched to the `update-events-jamie` branch.
 3. Pulled the latest changes from the `main` branch:
    ```bash
    git pull origin main
    ```
-4. Updated the `events.html` file with new content about upcoming community events.
+4. Updated the `update_events.html` file with new content about upcoming community events.
 5. Staged the changes:
    ```bash
-   git add events.html
+   git add update_events.html
    ```
 6. Committed the changes with a descriptive message:
    ```bash
    git commit -m "Update events page with upcoming community events."
    ```
-7. Pushed the `update-events` branch to GitHub:
+7. Pushed the `update-events-jamie` branch to GitHub:
    ```bash
    git push origin update-events
    ```
-8. Raised a Pull Request (PR) from `update-events` to the `main` branch.
+8. Raised a Pull Request (PR) from `update-events-jamie` to the `main` branch.
 9. Merged the PR to integrate the updated "Events" page into the `main` branch.
 
 ---
 
 ## Git Workflow Summary
-- **Branching**: Created separate branches (`add-book-reviews` and `update-events`) for each task to ensure isolated development.
+- **Branching**: Created separate branches (`add-book-review-morgan` and `update-events-jamie`) for each task to ensure isolated development.
 - **Commit Messages**: Used clear and descriptive commit messages to maintain repository clarity.
 - **Pull Requests**: Raised and merged PRs after completing and reviewing each enhancement.
 
